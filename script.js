@@ -41,4 +41,3 @@ function completeTask(btn) {
   taskText.style.color = "#00cc00"; // Set text color to green
   btn.classList.add('completed');
   btn.disabled = true;
-}

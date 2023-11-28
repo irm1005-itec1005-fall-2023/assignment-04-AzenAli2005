@@ -42,4 +42,3 @@ function completeTask(btn) {
   btn.classList.add('completed');
   btn.disabled = true;
 }
-

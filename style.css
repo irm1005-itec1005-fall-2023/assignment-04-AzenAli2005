@@ -1,1 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('SpidermanLOL.gif');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 80%;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #e60000;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 12px;
+  border: none;
+  background-color: #e60000;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #e60000;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.complete-btn {
+  background-color: #e60000;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+
+/*
+The GIF: https://giphy.com/gifs/thor-spiderman-Bz4NxK0OJrcti
+
+Used ChatGPT for debugging, corrections, and some Javascript Help
+*/
 

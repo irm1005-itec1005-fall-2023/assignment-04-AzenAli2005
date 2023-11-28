@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('Spiderman.gif');
-  background-size: cover;
+  background-size: auto;
   background-position: center;
 }
 

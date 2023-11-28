@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-ca">
 
+<head>
+  <!-- Set the page title -->
+  <title>Spider-Man To Do List</title>
+
+  <!-- Set the charset we're using to UTF-8 -->
+  <meta charset="utf-8" />
+
+  <!-- Set the screens default zoom / scale to 1 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Specifies the document mode for Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Set the CSS Reset File -->
+  <link rel="stylesheet" href="./reset.css" />
+
+  <!-- Set the main stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- Set the Favicon  -->
+  <link rel="icon" href="./images/favicon/rocket.svg" type="image/svg+xml" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Spiderman To-Do List</h1>
+    <div class="input-container">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
